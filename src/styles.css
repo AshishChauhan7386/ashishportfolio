@@ -179,64 +179,16 @@ body{
     background-color: rgba(38, 86, 191, 1);
   }
   
-  /* footer */
   
-  .footer {
-    background-color: #e6ecee;
-    padding: 0px 40px;
-  }
-  .bottomfooter {
-    color: black;
-    font-size: 14px;
-    font-weight: 500;
-    display: flex;
-    justify-content: space-around;
-  
-    flex-wrap: wrap;
-    border-top: 1px solid #c0c0c0;
-    padding: 20px 0px;
-    margin-top: 30px;
-  }
-  
-  .middlefooter .heading {
-    font-weight: 600;
-    font-size: 20px;
-    padding-bottom: 15px;
-    text-transform: uppercase;
-    width: 400px;
-  }
-  .middlefooter p {
-    font-size: 14px;
-    font-weight: 500;
-    margin-bottom: 30px;
-  }
-  .middlefooter .booknow {
-    padding: 5px 20px;
-    border: 1px solid black;
-    border-radius: 20px;
-    font-weight: 600;
-  }
-  .midfooter {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    border-top: 1px solid #c0c0c0;
-    margin-top: 60px;
-    padding-top: 30px;
-  }
   
   @media only screen and (max-width: 768px) {
-    .middlefooter {
-      padding-top: 40px;
-    }
+    
     .content {
       padding-top: 10px;
     }
   }
   @media only screen and (max-width: 1024px) {
-    .middlefooter {
-      padding-top: 40px;
-    }
+    
     .content {
       padding-top: 10px;
     }
