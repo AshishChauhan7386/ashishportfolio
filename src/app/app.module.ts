@@ -6,9 +6,10 @@ import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ReactiveFormsModule } from '@angular/forms';
+import { PortfolioComponent } from './component/portfolio/portfolio.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, PortfolioComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

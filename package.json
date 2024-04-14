@@ -18,13 +18,11 @@
     "@angular/platform-browser": "^16.2.0",
     "@angular/platform-browser-dynamic": "^16.2.0",
     "@angular/router": "^16.2.0",
-    "aos": "^2.3.4",
     "bootstrap": "^5.3.3",
     "jquery": "^3.7.1",
     "ng-scrollreveal": "^2.2.0",
     "popper.js": "^1.16.1",
     "rxjs": "~7.8.0",
-    "sweetalert2": "^11.10.7",
     "tslib": "^2.3.0",
     "zone.js": "~0.13.0"
   },

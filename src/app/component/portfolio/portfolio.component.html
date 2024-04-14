@@ -1,0 +1,685 @@
+<!-- navbar-->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container">
+      <a class="navbar-brand" href="#" >Ashish Chauhan</a>
+  
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        #navbarToggleBtn
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a
+            class="nav-link"
+            href="#home"
+            [class.active]="activeLink === 'home'"
+            (click)="toggleNavbar()"
+            (click)="setActiveLink('home')"
+            >Home</a
+          >
+          <a
+            class="nav-link"
+            href="#about"
+            [class.active]="activeLink === 'about'"
+            (click)="toggleNavbar()"
+            (click)="setActiveLink('about')"
+            >About</a
+          >
+          <a
+            class="nav-link"
+            href="#services"
+            [class.active]="activeLink === 'services'"
+            (click)="toggleNavbar()"
+            (click)="setActiveLink('services')"
+            >Services</a
+          >
+          <a
+            class="nav-link"
+            href="#project"
+            [class.active]="activeLink === 'project'"
+            (click)="toggleNavbar()"
+            (click)="setActiveLink('project')"
+            >Project</a
+          >
+          <a
+            class="nav-link"
+            href="#review"
+            [class.active]="activeLink === 'review'"
+            (click)="toggleNavbar()"
+            (click)="setActiveLink('review')"
+            >Review</a
+          >
+          <a
+            class="nav-link"
+            href="#contact"
+            [class.active]="activeLink === 'contact'"
+            (click)="toggleNavbar()"
+            (click)="setActiveLink('contact')"
+            >Contact</a
+          >
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- home-page   -->
+  <div class="home" id="home"  >
+    <div class="container-fluid d-flex align-items-center justify-content-center">
+      <div class="home-body text-center">
+        <div class="hi-heading">Hi,</div>
+        <div class="name-heading">
+          I'M <span class="name">Ashish Chauhan</span>
+        </div>
+        <div class="position-heading">FrontEnd Developer</div>
+        <div class="btn">
+          <a href="#contact"
+            ><button class="btn btn-primary">Send Message</button></a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- about-page -->
+  
+  <div class="container" id="about" >
+    <div class="about-heading">About Me</div>
+    <div class="about-text">
+      <h3>
+        I'm Ashish Chauhan and
+        <span class="about-inner-heading">Frontend Developer</span>
+      </h3>
+      <p>
+        Frontend developers may work on the front-end of a website. Front-end
+        developers are responsible for the client-side of the website, which
+        includes the layout, design, and user interface. They use HTML, CSS, and
+        JavaScript to create the visual elements of a website that users see and
+        interact with.
+      </p>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row" id="about-section">
+      <div class="col-md-6" >
+        <div class="personal-details">
+          <div class="edu-heading">Education</div>
+  
+          <ul class="education-list">
+            <li>
+              <strong>2017 - 2020</strong>
+              <h5>Bachelor of Computer Application</h5>
+              RBMI Group of Institutions Bareilly (Uttar Pradesh), Affiliated By
+              MJPRU Bareilly(Uttar Pradesh)
+            </li>
+            <hr />
+            <li>
+              <strong>2021 - 2023</strong>
+              <h5>Master of Computer Application</h5>
+              Future Institute of Engineering & Technology Bareilly (Uttar
+              Pradesh), Affiliated By APJ Abdul Kalam Technical University
+              Lucknow(Uttar Pradesh)
+            </li>
+            <hr />
+          </ul>
+          <div class="edu-heading">Certificate</div>
+  
+          <ul class="education-list">
+            <li>
+              <strong>2023</strong>
+              <h5>Angular</h5>
+              From Ducat Ghaziabad (Uttar Pradesh)
+            </li>
+            <hr />
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-6" >
+        <div class="all-skills">
+          <div class="skills">
+            <div class="about-skill">
+              <h1>HTML5</h1>
+            </div>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                aria-label="Example with label"
+                style="width: 70%"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                70%
+              </div>
+            </div>
+          </div>
+  
+          <div class="skills">
+            <div class="about-skill">
+              <h1>CSS</h1>
+            </div>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                aria-label="Example with label"
+                style="width: 62%"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                62%
+              </div>
+            </div>
+          </div>
+  
+          <div class="skills">
+            <div class="about-skill">
+              <h1>Bootstrap</h1>
+            </div>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                aria-label="Example with label"
+                style="width: 75%"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                75%
+              </div>
+            </div>
+          </div>
+  
+          <div class="skills">
+            <div class="about-skill">
+              <h1>Tailwind Css</h1>
+            </div>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                aria-label="Example with label"
+                style="width: 60%"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                60%
+              </div>
+            </div>
+          </div>
+          <div class="skills">
+            <div class="about-skill">
+              <h1>JavaScript</h1>
+            </div>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                aria-label="Example with label"
+                style="width: 68%"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                68%
+              </div>
+            </div>
+          </div>
+          <div class="skills">
+            <div class="about-skill">
+              <h1>TypeScript</h1>
+            </div>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                aria-label="Example with label"
+                style="width: 70%"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                70%
+              </div>
+            </div>
+          </div>
+          <div class="skills">
+            <div class="about-skill">
+              <h1>Angular</h1>
+            </div>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                aria-label="Example with label"
+                style="width: 65%"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                65%
+              </div>
+            </div>
+          </div>
+  
+          <div class="resume" (click)="downloadResume()" >Download Resume</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Services -->
+  <div class="container" id="services" >
+    <div class="services-heading" >Services</div>
+  
+    <div class="site-wrapper" >
+      <section class="tabs-wrapper">
+        <div class="tabs-container">
+          <div class="tabs-block">
+            <div class="tabs">
+              <input type="radio" name="tabs" id="tab1" checked="checked" />
+              <label for="tab1"
+                ><span class="material-icons">favorite_border</span
+                >WebDevelopmentServices</label
+              >
+              <div class="tab">
+                <h2>Web Development Services</h2>
+                <p>
+                  We specialize in custom website development, web application
+                  development, and CMS-based solutions. Our focus is on delivering
+                  high-quality code and scalable architecture to help you achieve
+                  your business goals.
+                </p>
+              </div>
+  
+              <input type="radio" name="tabs" id="tab2" />
+              <label for="tab2"
+                ><span class="material-icons">favorite_border</span
+                >ResponsiveDesign</label
+              >
+              <div class="tab">
+                <h2>ResponsiveDesign</h2>
+                <p>
+                  We create mobile-friendly and adaptable websites that work
+                  seamlessly on every device. Our design approach prioritizes
+                  UI/UX best practices to maximize user and satisfaction.
+                </p>
+              </div>
+  
+              <input type="radio" name="tabs" id="tab3" />
+              <label for="tab3"
+                ><span class="material-icons">favorite_border</span>
+                FrontendDevelopment</label
+              >
+              <div class="tab">
+                <h2>FrontendDevelopment</h2>
+                <p>
+                  Using HTML, CSS, JavaScript, TypeScript, Bootstrap, Tailwind CSS
+                  And Angular, We develop interactive and visually appealing
+                  websites. Our focus is on clean code, efficient performance, and
+                  cross-browser compatibility.
+                </p>
+              </div>
+  
+              <input type="radio" name="tabs" id="tab4" />
+              <label for="tab4"
+                ><span class="material-icons">favorite_border</span
+                >WebsiteOptimization</label
+              >
+              <div class="tab">
+                <h2>WebsiteOptimization</h2>
+                <p>
+                  We offer website speed optimization, performance improvement,
+                  and SEO optimization services. Our optimization techniques
+                  enhance your website's visibility and improve user experience.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  
+  <!-- Project -->
+  <div class="container" id="project">
+    <div class="project-heading" >Project</div>
+  
+    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist"  >
+      <li class="nav-item" role="presentation">
+        <button
+          class="nav-link active"
+          id="pills-home-tab"
+          data-bs-toggle="pill"
+          data-bs-target="#pills-home"
+          type="button"
+          role="tab"
+          aria-controls="pills-home"
+          aria-selected="true"
+        >
+          School Fees Management System
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button
+          class="nav-link"
+          id="pills-profile-tab"
+          data-bs-toggle="pill"
+          data-bs-target="#pills-profile"
+          type="button"
+          role="tab"
+          aria-controls="pills-profile"
+          aria-selected="false"
+        >
+          Ecommerce Website
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button
+          class="nav-link"
+          id="pills-bank-tab"
+          data-bs-toggle="pill"
+          data-bs-target="#pills-bank"
+          type="button"
+          role="tab"
+          aria-controls="pills-bank"
+          aria-selected="false"
+        >
+          Bank Dashboard
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button
+          class="nav-link"
+          id="pills-quiz-tab"
+          data-bs-toggle="pill"
+          data-bs-target="#pills-quiz"
+          type="button"
+          role="tab"
+          aria-controls="pills-quiz"
+          aria-selected="false"
+        >
+          Quiz Application
+        </button>
+      </li>
+    </ul>
+  
+    <div class="tab-content" id="pills-tabContent"  >
+      <div
+        class="tab-pane fade show active"
+        id="pills-home"
+        role="tabpanel"
+        aria-labelledby="pills-home-tab"
+      >
+        Implemented user authentication functionalities, including user login and
+        signup processes, to ensure secure access to the school fees management
+        system. and Utilized Angular framework to create a responsive and dynamic
+        user interface, ensuring smooth navigation and optimal user experience
+        across devices.
+      </div>
+      <div
+        class="tab-pane fade"
+        id="pills-profile"
+        role="tabpanel"
+        aria-labelledby="pills-profile-tab"
+      >
+        Developed a user-friendly shopping cart feature allowing customers to add,
+        remove, and modify items in their cart, facilitating a smooth and
+        convenient shopping experience and Utilized responsive design principles
+        to ensure optimal viewing and interaction experiences across devices,
+        including desktops, tablets, and mobile phones.
+      </div>
+      <div
+        class="tab-pane fade"
+        id="pills-bank"
+        role="tabpanel"
+        aria-labelledby="pills-bank-tab"
+      >
+        Implemented a comprehensive bank dashboard create users to open accounts,
+        update customer details, and perform transactions such as adding or
+        deducting funds from accounts.
+      </div>
+      <div
+        class="tab-pane fade"
+        id="pills-quiz"
+        role="tabpanel"
+        aria-labelledby="pills-quiz-tab"
+      >
+        Created an engaging quiz application featuring a wide range of questions
+        across different categories. Users can attempt quizzes and receive
+        immediate feedback on their performance. Employed interactive elements and
+        visually appealing design for an enjoyable quiz-taking experience.
+      </div>
+    </div>
+  </div>
+  
+  <!-- review -->
+  
+  <div class="container" id="review">
+    <div class="review-heading">Review</div>
+    <div class="row" id="main-all-card">
+      <div
+        class="col-md-6 mt-2"
+        *ngFor="
+          let comment of showAllComments
+            ? getDataComment
+              ? getDataComment
+              : []
+            : getDataComment.slice(-4)
+        "
+      >
+        <div class="card" >
+          <div class="card-body">
+            <h5 class="card-title">{{ comment.Name }}</h5>
+            <p class="card-text">{{ comment.Message }}</p>
+            <p class="card-text">
+              <small class="text-muted"
+                >Posted on
+                {{ comment.timestamp | date : "MMMM d, yyyy, h:mm a" }}</small
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="view-all-comments">
+      <a href="#review" (click)="toggleAllComments()">{{
+        getReviewLinkText()
+      }}</a>
+    </div>
+  </div>
+  
+  <!-- review submit -->
+  <div class="container" >
+    <div class="comment-heading">Comment</div>
+  
+    <form class="comment" [formGroup]="commentForm" (ngSubmit)="onSubmit()">
+      <div class="row">
+        <div class="comment-form padd-15">
+          <div class="row">
+            <div class="form-item col-12 padd-15">
+              <div class="form-group">
+                <label for="name"></label>
+                <input
+                  type="text"
+                  formControlName="Name"
+                  class="form-control"
+                  name="Name"
+                  placeholder="Name"
+                />
+              </div>
+            </div>
+          </div>
+  
+          <div class="row">
+            <div class="form-item col-12 padd-15">
+              <div class="form-group">
+                <label for="message"></label>
+                <textarea
+                  name=""
+                  class="form-control"
+                  id=""
+                  name="Message"
+                  formControlName="Message"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-item col-12 padd-15">
+              <button
+                type="submit"
+                [disabled]="!commentForm.valid"
+                class="btn"
+                name="submit"
+              >
+                Submit
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+  <!-- contact -->
+  
+  <div class="container" id="contact" >
+    <div class="row">
+      <div class="contact-heading">Contact</div>
+    </div>
+    <h3 class="contact-title padd-15">Have You Any Questions ?</h3>
+    <h4 class="contact-sub-title padd-15">I'M AT YOUR SERVICES</h4>
+  
+    <form class="contact" [formGroup]="contactForm" (ngSubmit)="contactSubmit()">
+      <div class="row">
+        <div class="contact-form padd-15">
+          <div class="row">
+            <div class="form-item col-6 padd-15">
+              <div class="form-group">
+                <label for="name"></label>
+                <input
+                  type="text"
+                  class="form-control"
+                  formControlName="ContactName"
+                  name="Name"
+                  placeholder="Name"
+                />
+              </div>
+            </div>
+            <div class="form-item col-6 padd-15">
+              <div class="form-group">
+                <label for="phonenumber"></label>
+                <input
+                  type="text"
+                  class="form-control"
+                  formControlName="ContactNumber"
+                  name="phonenumber"
+                  placeholder="Contact Number"
+                />
+              </div>
+            </div>
+          </div>
+  
+          <div class="row">
+            <div class="form-item col-12 padd-15">
+              <div class="form-group">
+                <label for="message"></label>
+                <textarea
+                  name=""
+                  class="form-control"
+                  formControlName="ContactMessage"
+                  id=""
+                  name="Message"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-item col-12 padd-15">
+              <button
+                type="submit"
+                [disabled]="!contactForm.valid"
+                class="btn"
+                name="submit"
+              >
+                Send Message
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+  
+  <!-- footer -->
+  
+  <footer class="footer"  >
+    <section class="midfooter container" >
+      <div class="middlefooter">
+        <div class="heading">Web Development Services</div>
+        <p>
+          Adarsh Nagar <br />
+          Badaun UP<br /><br />
+          +91 8433424837<br />
+          chauhanashish7386@gmail.com
+        </p>
+  
+        <span class="booknow">
+          <a href="#contact">Send Message</a>
+        </span>
+      </div>
+  
+      <div class="middlefooter" >
+        <div class="heading">Website Optimization</div>
+        <p>
+          Adarsh Nagar<br />
+          Badaun UP<br /><br />
+          +91 8433424837<br />
+          chauhanashish7386@gmail.com
+        </p>
+  
+        <span class="booknow">
+          <a href="#contact">Send Message</a>
+        </span>
+      </div>
+  
+      <div class="middlefooter" >
+        <div class="heading">Responsive Design</div>
+        <p>
+          Adarsh Nagar<br />
+          Badaun UP<br /><br />
+          +91 8433424837<br />
+          chauhanashish7386@gmail.com
+        </p>
+  
+        <span class="booknow">
+          <a href="#contact">Send Message</a>
+        </span>
+      </div>
+    </section>
+    <section>
+      <div class="bottomfooter" >
+        <div class="content" >&#169; Copyright 2024, Ashish Chauhan</div>
+        <div class="content" >Home | Services | Project | Review</div>
+      </div>
+     
+  
+    </section>
+  </footer>
+  <div class="top"  >
+  <button (click)="scrollToTop()" > <i  class="fas fa-arrow-up" ></i></button>
+  </div>
